@@ -1,48 +1,73 @@
-# DecisionREF – Scope and Limitations
+# Scope and Limitations — DecisionREF
 
-## What DecisionREF Is Designed For
+## Project Scope
 
-DecisionREF is built to assist with:
-- Career-related decision making
-- Educational and learning path choices
-- Early to mid-career transitions
-- Situations involving uncertainty and multiple valid options
+DecisionREF is intentionally designed as a **decision reasoning assistant**, not a recommendation or prediction system.
 
-Its strength lies in structured thinking, not prediction.
+Within its scope, DecisionREF:
+
+- Supports four predefined career and life decisions:
+  1. Job vs Higher Studies  
+  2. Startup vs MNC  
+  3. India vs Abroad  
+  4. Switch Early vs Stay Longer  
+
+- Accepts user context including:
+  - Career stage
+  - Primary priority (growth, stability, money, learning)
+  - Risk tolerance
+  - Financial background
+  - Time horizon
+
+- Generates structured explanations that:
+  - Compare two options side-by-side
+  - Highlight short-term and long-term trade-offs
+  - Maintain a neutral, referee-like tone
 
 ---
 
-## What DecisionREF Does Well
+## Explicit Non-Goals
 
-- Breaks complex decisions into understandable parts
-- Highlights trade-offs that are often overlooked
-- Encourages long-term thinking over impulsive choices
-- Avoids one-size-fits-all recommendations
-- Keeps the user in control of the final decision
+DecisionREF does NOT:
+
+- Recommend a single “best” choice
+- Rank options or assign scores
+- Predict outcomes or success probabilities
+- Replace human judgment or personal reflection
+- Use historical data, statistics, or machine learning models
 
 ---
 
-## What DecisionREF Does NOT Do
+## Design Constraints
 
-- It does not replace mentors, counselors, or human judgment
-- It does not guarantee outcomes such as salary or job placement
-- It does not make decisions on behalf of the user
-- It does not provide medical, legal, or financial advice
+The following constraints were intentionally applied:
+
+- Logic is kept simple and interpretable
+- No personalization beyond user-declared inputs
+- No optimization or decision automation
+- Focus on clarity over completeness
+
+These constraints ensure the system remains understandable, explainable, and aligned with the “AI Referee” concept.
 
 ---
 
 ## Known Limitations
 
-- Outputs depend on the quality of user input
-- Long-term projections are illustrative, not predictive
-- Personal values may change over time and affect decisions
-- Emotional factors are acknowledged but not deeply modeled
+- Output quality depends on the clarity of user inputs
+- Does not account for rare or highly specialized career paths
+- Cannot incorporate real-time market conditions
+- Reasoning is qualitative, not quantitative
 
 ---
 
-## Ethical Boundary
+## Rationale for These Limitations
 
-DecisionREF prioritizes clarity over persuasion.
+These limitations are deliberate.
 
-Its role is to help users **think better**,  
-not to push them toward any specific path.
+By avoiding recommendations, predictions, and scoring, DecisionREF:
+- Reduces bias
+- Encourages user reflection
+- Preserves human agency in decision-making
+
+This aligns directly with the project’s goal:  
+**helping users think better, not decide for them.**
